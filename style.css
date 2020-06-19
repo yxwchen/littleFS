@@ -28,8 +28,7 @@ html * {
     .header{
         width: 100%;
         height: 100px;
-        background: #ccc;
-    }
+        }
     .header .wrap{
         display: flex;
         padding: 10px;
@@ -80,7 +79,6 @@ html * {
     margin: 20px 0;;
     width: 100%;
     height: 300px;
-    background: #000;
     position: relative;
 }
 .bannerCard img{
@@ -139,14 +137,8 @@ padding: 20px;
     justify-content:flex-end;
     position: relative;
 }
-/* .news .newsText{
-    background-color: #ccc;
-    font-size: 0;
-    width: 50%;
-    min-height: 100px;
-    flex: 0 0 30%;
-} */
-.a{
+
+.newsText{
     background-color: rgba(238,238,238,0.5);    font-size: 18px;
     line-height: 2;
     min-width: 50%;
@@ -156,24 +148,10 @@ top:20px;
 left: 30px;
 padding:10px 50px;
 }
-.b{
-    background-color: #00F;
-}
-.b img{
+.newsImg img{
     width: 700px;
     height: 200px;
  }
-
-/* .news .newsText h3{
-    font-size: 18px;
-    line-height: 2;
-    margin-top: 20px;
-
-}
-.news .newsImg img {
-    flex: 0 0 auto;
-    width: 50%;
-} */
 /* footer區 */
 .footer .wrap{
     width: 1200px;
